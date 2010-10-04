@@ -1,0 +1,76 @@
+<global_picklist_record>
+<list_values>General Email,Marketing Email,Prospecting Email</list_values>
+<name>email_template_category</name>
+<affiliate_id></affiliate_id>
+<default_flag>1</default_flag>
+<sort_flag>1</sort_flag>
+<completed_values></completed_values>
+<title>Email Template Categories</title>
+<description>Use this picklist to classify email templates</description>
+<date_modified></date_modified>
+<modified_id></modified_id>
+<flag_standard>3</flag_standard>
+<created_id></created_id>
+<date_created></date_created>
+<flags>0</flags>
+<global_picklist_item_record>
+<id>1d01f1981650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>email_template_category</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>0</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label>General Email</picklist_label>
+<picklist_value>General Email</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+<global_picklist_item_record>
+<id>1d01f86e1650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>email_template_category</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>1</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label>Marketing Email</picklist_label>
+<picklist_value>Marketing Email</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+<global_picklist_item_record>
+<id>1d01fe7c1650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>email_template_category</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>2</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label>Prospecting Email</picklist_label>
+<picklist_value>Prospecting Email</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+</global_picklist_record>

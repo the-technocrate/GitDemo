@@ -1,0 +1,37 @@
+<custom_object_table>
+<owner_team_id type = "int(11)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></owner_team_id>
+<date_modified type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></date_modified>
+<workflow_state_change_date type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></workflow_state_change_date>
+<object_id type = "varchar(32)"  nullAttrib = "YES" key = "" default = "1bb4b22dc3bd49b8a059452bb112c7ab" extraAttrib = ""></object_id>
+<search_string type = "varchar(1024)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></search_string>
+<date_created type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></date_created>
+<field_from type = "int(11)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></field_from>
+<id type = "int(11)"  nullAttrib = "NO" key = "PRI" default = "" extraAttrib = ""></id>
+<created_id type = "varchar(32)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></created_id>
+<is_deleted type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></is_deleted>
+<price type = "double"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></price>
+<modified_id type = "varchar(32)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></modified_id>
+<workflow_state type = "varchar(32)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></workflow_state>
+<name type = "varchar(100)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></name>
+<owner_id type = "varchar(32)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></owner_id>
+<workflow_owners type = "varchar(1055)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></workflow_owners>
+<field_to type = "int(11)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></field_to>
+<usage_plan type = "int(11)"  nullAttrib = "YES" key = "MUL" default = "null" extraAttrib = ""></usage_plan>
+<custom_object_index>
+<index>
+<id>34b26549d12548f5ba13bbbc9bc65ca5</id>
+<name>usage_price_idx</name>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<object_id>1bb4b22dc3bd49b8a059452bb112c7ab</object_id>
+<primary_key>1</primary_key>
+<index_fields>usage_plan,field_from,field_to</index_fields>
+<flag_standard>0</flag_standard>
+<affiliate_id></affiliate_id>
+<flags>0</flags>
+</index>
+</custom_object_index>
+<custom_object_primary_key columns = " id"></custom_object_primary_key>
+</custom_object_table>

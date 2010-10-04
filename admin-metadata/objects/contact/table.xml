@@ -1,0 +1,142 @@
+<custom_object_table>
+<id type = "int(11)"  nullAttrib = "NO" key = "PRI" default = "0" extraAttrib = ""></id>
+<salutation type = "varchar(100)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></salutation>
+<first_name type = "varchar(100)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></first_name>
+<last_name type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></last_name>
+<account_id type = "int(11)"  nullAttrib = "YES" key = "MUL" default = "null" extraAttrib = ""></account_id>
+<owner_id type = "varchar(32)"  nullAttrib = "NO" key = "MUL" default = "" extraAttrib = ""></owner_id>
+<title type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></title>
+<department type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></department>
+<birth_date type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></birth_date>
+<reports_to type = "int(11)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></reports_to>
+<lead_source type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></lead_source>
+<phone type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></phone>
+<home_phone type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></home_phone>
+<mobile_phone type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></mobile_phone>
+<other_phone type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></other_phone>
+<fax type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></fax>
+<email type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></email>
+<assistant type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></assistant>
+<assistant_phone type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></assistant_phone>
+<date_created type = "datetime"  nullAttrib = "NO" key = "MUL" default = "0000-00-00 00:00:00" extraAttrib = ""></date_created>
+<created_id type = "varchar(32)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></created_id>
+<date_modified type = "datetime"  nullAttrib = "NO" key = "MUL" default = "0000-00-00 00:00:00" extraAttrib = ""></date_modified>
+<modified_id type = "varchar(32)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></modified_id>
+<street type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></street>
+<city type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></city>
+<state type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></state>
+<zip type = "varchar(10)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></zip>
+<country type = "varchar(32)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></country>
+<description type = "text"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></description>
+<custom1 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom1>
+<custom2 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom2>
+<custom3 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom3>
+<custom4 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom4>
+<custom5 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom5>
+<self_service_enabled type = "int(11)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></self_service_enabled>
+<self_service_password type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></self_service_password>
+<self_service_username type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></self_service_username>
+<owner_team_id type = "int(11)"  nullAttrib = "YES" key = "MUL" default = "null" extraAttrib = ""></owner_team_id>
+<custom6 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom6>
+<custom7 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom7>
+<custom8 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom8>
+<custom9 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom9>
+<custom10 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom10>
+<custom11 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom11>
+<custom12 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom12>
+<custom13 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom13>
+<custom14 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom14>
+<custom15 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom15>
+<custom16 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom16>
+<custom17 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom17>
+<custom18 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom18>
+<custom19 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom19>
+<custom20 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom20>
+<do_not_email type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></do_not_email>
+<mail_format_preference type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></mail_format_preference>
+<hard_bounce_count type = "int(11)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></hard_bounce_count>
+<soft_bounce_count type = "int(11)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></soft_bounce_count>
+<do_not_call type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></do_not_call>
+<do_not_fax type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></do_not_fax>
+<flag_primary_contact type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></flag_primary_contact>
+<reference_type type = "varchar(32)"  nullAttrib = "YES" key = "" default = "Account" extraAttrib = ""></reference_type>
+<reference_id_name type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></reference_id_name>
+<workflow_owner_id type = "varchar(32)"  nullAttrib = "YES" key = "" default = "" extraAttrib = ""></workflow_owner_id>
+<workflow_owner_team_id type = "int(11)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></workflow_owner_team_id>
+<is_deleted type = "tinyint(2)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></is_deleted>
+<self_service_date_last_password_change type = "datetime"  nullAttrib = "YES" key = "" default = "2005-02-01 00:00:00" extraAttrib = ""></self_service_date_last_password_change>
+<self_service_force_change_password type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "1" extraAttrib = ""></self_service_force_change_password>
+<custom_object_index>
+<index>
+<id>1000con0001</id>
+<name>ac_idx</name>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<object_id>CONTACT</object_id>
+<primary_key>0</primary_key>
+<index_fields>account_id</index_fields>
+<flag_standard>1</flag_standard>
+<affiliate_id></affiliate_id>
+<flags>0</flags>
+</index>
+<index>
+<id>1000con0002</id>
+<name>ow_idx</name>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<object_id>CONTACT</object_id>
+<primary_key>0</primary_key>
+<index_fields>owner_id</index_fields>
+<flag_standard>2</flag_standard>
+<affiliate_id></affiliate_id>
+<flags>0</flags>
+</index>
+<index>
+<id>1000con0003</id>
+<name>date_created_idx</name>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<object_id>CONTACT</object_id>
+<primary_key>0</primary_key>
+<index_fields>date_created</index_fields>
+<flag_standard>2</flag_standard>
+<affiliate_id></affiliate_id>
+<flags>0</flags>
+</index>
+<index>
+<id>1000con0004</id>
+<name>date_modified_idx</name>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<object_id>CONTACT</object_id>
+<primary_key>0</primary_key>
+<index_fields>date_modified</index_fields>
+<flag_standard>2</flag_standard>
+<affiliate_id></affiliate_id>
+<flags>0</flags>
+</index>
+<index>
+<id>1000con0005</id>
+<name>team_idx</name>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<object_id>CONTACT</object_id>
+<primary_key>0</primary_key>
+<index_fields>owner_team_id</index_fields>
+<flag_standard>2</flag_standard>
+<affiliate_id></affiliate_id>
+<flags>0</flags>
+</index>
+</custom_object_index>
+<custom_object_primary_key columns = " id"></custom_object_primary_key>
+</custom_object_table>

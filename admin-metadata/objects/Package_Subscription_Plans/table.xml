@@ -1,0 +1,43 @@
+<custom_object_table>
+<effective_end_date type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></effective_end_date>
+<field_name type = "varchar(50)"  nullAttrib = "YES" key = "MUL" default = "null" extraAttrib = ""></field_name>
+<owner_team_id type = "int(11)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></owner_team_id>
+<promotion_code type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></promotion_code>
+<date_modified type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></date_modified>
+<workflow_state_change_date type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></workflow_state_change_date>
+<object_id type = "varchar(32)"  nullAttrib = "YES" key = "" default = "2387afa701154285a8dec7533a07c830" extraAttrib = ""></object_id>
+<search_string type = "varchar(1024)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></search_string>
+<effective_start_date type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></effective_start_date>
+<date_created type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></date_created>
+<country type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></country>
+<currency type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></currency>
+<id type = "int(11)"  nullAttrib = "NO" key = "PRI" default = "" extraAttrib = ""></id>
+<created_id type = "varchar(32)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></created_id>
+<is_deleted type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></is_deleted>
+<modified_id type = "varchar(32)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></modified_id>
+<workflow_state type = "varchar(32)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></workflow_state>
+<default_plan type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></default_plan>
+<description type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></description>
+<classification type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></classification>
+<name type = "varchar(100)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></name>
+<owner_id type = "varchar(32)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></owner_id>
+<workflow_owners type = "varchar(1055)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></workflow_owners>
+<post_effective_date type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></post_effective_date>
+<custom_object_index>
+<index>
+<id>e795574d6b864a069125c34476bad8d3</id>
+<name>name_idx</name>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<object_id>2387afa701154285a8dec7533a07c830</object_id>
+<primary_key>1</primary_key>
+<index_fields>field_name</index_fields>
+<flag_standard>0</flag_standard>
+<affiliate_id></affiliate_id>
+<flags>0</flags>
+</index>
+</custom_object_index>
+<custom_object_primary_key columns = " id"></custom_object_primary_key>
+</custom_object_table>

@@ -1,0 +1,16 @@
+<global_picklist_record>
+<list_values></list_values>
+<name>product_type</name>
+<affiliate_id></affiliate_id>
+<default_flag>0</default_flag>
+<sort_flag>1</sort_flag>
+<completed_values>null</completed_values>
+<title>Product Types</title>
+<description>Displays various product types</description>
+<date_modified></date_modified>
+<modified_id></modified_id>
+<flag_standard>3</flag_standard>
+<created_id></created_id>
+<date_created></date_created>
+<flags>0</flags>
+</global_picklist_record>

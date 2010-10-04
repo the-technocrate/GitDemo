@@ -1,0 +1,31 @@
+<custom_object_table>
+<card_number type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></card_number>
+<card_month type = "int(11)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></card_month>
+<date_created type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></date_created>
+<id type = "int(11)"  nullAttrib = "NO" key = "PRI" default = "" extraAttrib = ""></id>
+<response type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></response>
+<workflow_state type = "varchar(32)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></workflow_state>
+<tenant type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></tenant>
+<name type = "varchar(100)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></name>
+<billing_street type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></billing_street>
+<owner_team_id type = "int(11)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></owner_team_id>
+<billing_amount type = "double"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></billing_amount>
+<workflow_state_change_date type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></workflow_state_change_date>
+<date_modified type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></date_modified>
+<object_id type = "varchar(32)"  nullAttrib = "YES" key = "" default = "40b02421f73c4b7a9f036d6ec53c9aab" extraAttrib = ""></object_id>
+<search_string type = "varchar(1024)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></search_string>
+<card_year type = "int(11)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></card_year>
+<created_id type = "varchar(32)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></created_id>
+<billing_zip type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></billing_zip>
+<is_deleted type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></is_deleted>
+<modified_id type = "varchar(32)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></modified_id>
+<card_type type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></card_type>
+<billing_city type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></billing_city>
+<billing_date type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></billing_date>
+<workflow_owners type = "varchar(1055)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></workflow_owners>
+<owner_id type = "varchar(32)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></owner_id>
+<billing_contact_name type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></billing_contact_name>
+<custom_object_index>
+</custom_object_index>
+<custom_object_primary_key columns = " id"></custom_object_primary_key>
+</custom_object_table>

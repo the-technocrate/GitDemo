@@ -1,0 +1,25 @@
+<view>
+<id>d68ddfc97a6d4efca18e95166cfb1f5e</id>
+<view_id>1139</view_id>
+<user_id>0</user_id>
+<version></version>
+<layout>&lt;layout&gt;&lt;show_details&gt;YES&lt;/show_details&gt;&lt;show_record_counts&gt;NO&lt;/show_record_counts&gt;&lt;view_display_type&gt;0&lt;/view_display_type&gt;&lt;calender_field&gt;&lt;/calender_field&gt;&lt;columns&gt;&lt;column&gt;ID&lt;/column&gt;&lt;column&gt;MODIFIEDID&lt;/column&gt;&lt;column&gt;DATEMODIFIED&lt;/column&gt;&lt;/columns&gt;&lt;order&gt;&lt;/order&gt;&lt;custom_fields&gt;&lt;/custom_fields&gt;&lt;custom_summary_fields&gt;&lt;/custom_summary_fields&gt;&lt;sort&gt;&lt;column name=&quot;DATEMODIFIED&quot; order=&quot;desc&quot; name_2=&quot;&quot; order_2=&quot;asc&quot;/&gt;&lt;/sort&gt;&lt;average&gt;&lt;/average&gt;&lt;sum&gt;&lt;/sum&gt;&lt;min&gt;&lt;/min&gt;&lt;max&gt;&lt;/max&gt;&lt;ownership&gt;1&lt;/ownership&gt;&lt;specific_team_names&gt;&lt;/specific_team_names&gt;&lt;specific_user_names&gt;&lt;/specific_user_names&gt;&lt;chart_details&gt;&lt;chart_type&gt;&lt;/chart_type&gt;&lt;chart_size&gt;&lt;/chart_size&gt;&lt;chart_location&gt;&lt;/chart_location&gt;&lt;chart_title&gt;&lt;/chart_title&gt;&lt;chart_title_color&gt;&lt;/chart_title_color&gt;&lt;chart_title_size&gt;&lt;/chart_title_size&gt;&lt;chart_text_color&gt;&lt;/chart_text_color&gt;&lt;chart_text_size&gt;&lt;/chart_text_size&gt;&lt;chart_legend_position&gt;&lt;/chart_legend_position&gt;&lt;chart_background_color&gt;&lt;/chart_background_color&gt;&lt;chart_summary_value&gt;&lt;/chart_summary_value&gt;&lt;chart_gauge_limit&gt;&lt;/chart_gauge_limit&gt;&lt;/chart_details&gt;&lt;filters&gt;&lt;/filters&gt;&lt;thumbnail_details&gt;&lt;/thumbnail_details&gt;&lt;date_filters&gt;&lt;/date_filters&gt;&lt;subquery&gt;&lt;subquery_param&gt;&lt;/subquery_param&gt;&lt;subquery_operator&gt;&lt;/subquery_operator&gt;&lt;subquery_report&gt;&lt;/subquery_report&gt;&lt;subquery_report_join_field&gt;&lt;/subquery_report_join_field&gt;&lt;multi_subquery_join&gt;and&lt;/multi_subquery_join&gt;&lt;/subquery&gt;&lt;subquery2&gt;&lt;subquery_param2&gt;&lt;/subquery_param2&gt;&lt;subquery_operator2&gt;&lt;/subquery_operator2&gt;&lt;subquery_report2&gt;&lt;/subquery_report2&gt;&lt;subquery_report_join_field2&gt;&lt;/subquery_report_join_field2&gt;&lt;/subquery2&gt;&lt;row_groups&gt;&lt;/row_groups&gt;&lt;col_groups&gt;&lt;/col_groups&gt;&lt;color_codes&gt;&lt;/color_codes&gt;&lt;compute_columns&gt;&lt;/compute_columns&gt;&lt;/layout&gt;</layout>
+<name>My Records</name>
+<view_type>0</view_type>
+<description></description>
+<global>1</global>
+<flag_default>0</flag_default>
+<date_created></date_created>
+<others_resource_access_required>0</others_resource_access_required>
+<custom_object_id>97d51d0b2770430580c19b1beb51dc79</custom_object_id>
+<visible_to_specific_type_data></visible_to_specific_type_data>
+<folder_id></folder_id>
+<created_id></created_id>
+<modified_id></modified_id>
+<date_modified></date_modified>
+<application_id>1</application_id>
+<visibility_control></visibility_control>
+<is_deleted>0</is_deleted>
+<crc_object_ids></crc_object_ids>
+<affiliate_id></affiliate_id>
+</view>

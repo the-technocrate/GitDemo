@@ -1,0 +1,70 @@
+<custom_object_table>
+<id type = "int(11)"  nullAttrib = "NO" key = "PRI" default = "0" extraAttrib = ""></id>
+<contact_id type = "int(11)"  nullAttrib = "YES" key = "MUL" default = "0" extraAttrib = ""></contact_id>
+<account_id type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></account_id>
+<owner_id type = "varchar(32)"  nullAttrib = "YES" key = "MUL" default = "null" extraAttrib = ""></owner_id>
+<subject type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></subject>
+<type type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></type>
+<reason type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></reason>
+<status type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></status>
+<priority type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></priority>
+<origin type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></origin>
+<close_date type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></close_date>
+<date_created type = "datetime"  nullAttrib = "NO" key = "" default = "0000-00-00 00:00:00" extraAttrib = ""></date_created>
+<created_id type = "varchar(32)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></created_id>
+<date_modified type = "datetime"  nullAttrib = "NO" key = "" default = "0000-00-00 00:00:00" extraAttrib = ""></date_modified>
+<modified_id type = "varchar(32)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></modified_id>
+<affiliate_id type = "int(11)"  nullAttrib = "NO" key = "" default = "0" extraAttrib = ""></affiliate_id>
+<description type = "text"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></description>
+<internal_comments type = "text"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></internal_comments>
+<name type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></name>
+<owner_team_id type = "int(11)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></owner_team_id>
+<notify_status_change type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "1" extraAttrib = ""></notify_status_change>
+<project_id type = "int(11)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></project_id>
+<submitter_email type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></submitter_email>
+<submitter_id type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></submitter_id>
+<notify_ids type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></notify_ids>
+<submitter_name type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></submitter_name>
+<submitter_phone type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></submitter_phone>
+<submitter_login type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></submitter_login>
+<submitter_team_id type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></submitter_team_id>
+<is_deleted type = "tinyint(2)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></is_deleted>
+<fix_by type = "date"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></fix_by>
+<training_approved type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></training_approved>
+<parent_company type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></parent_company>
+<solution_type type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></solution_type>
+<submitter_affiliate_id type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></submitter_affiliate_id>
+<is_escalated type = "tinyint(2)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></is_escalated>
+<escalated_case_id type = "int(11)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></escalated_case_id>
+<custom_object_index>
+<index>
+<id>1000cas0001</id>
+<name>ca_idx</name>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<object_id>CASE</object_id>
+<primary_key>0</primary_key>
+<index_fields>contact_id</index_fields>
+<flag_standard>1</flag_standard>
+<affiliate_id></affiliate_id>
+<flags>0</flags>
+</index>
+<index>
+<id>1000cas0002</id>
+<name>ow_idx</name>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<object_id>CASE</object_id>
+<primary_key>0</primary_key>
+<index_fields>owner_id</index_fields>
+<flag_standard>2</flag_standard>
+<affiliate_id></affiliate_id>
+<flags>0</flags>
+</index>
+</custom_object_index>
+<custom_object_primary_key columns = " id"></custom_object_primary_key>
+</custom_object_table>

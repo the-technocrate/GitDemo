@@ -1,0 +1,116 @@
+<global_picklist_record>
+<list_values>Left Voice Mail,Talked to Associate,Appointment Rescheduled,Brief Discussion, Callback Again</list_values>
+<name>call_attempt_type</name>
+<affiliate_id></affiliate_id>
+<default_flag>0</default_flag>
+<sort_flag>0</sort_flag>
+<completed_values>null</completed_values>
+<title>Call Attempts Type</title>
+<description>Provide Quick Option to Sales Reps to specify what happenned when they attempted the call</description>
+<date_modified></date_modified>
+<modified_id></modified_id>
+<flag_standard>3</flag_standard>
+<created_id></created_id>
+<date_created></date_created>
+<flags>0</flags>
+<global_picklist_item_record>
+<id>1cf511d01650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>call_attempt_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>0</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label>Left Voice Mail</picklist_label>
+<picklist_value>Left Voice Mail</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+<global_picklist_item_record>
+<id>1cf518a61650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>call_attempt_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>1</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label>Talked to Associate</picklist_label>
+<picklist_value>Talked to Associate</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+<global_picklist_item_record>
+<id>1cf51f401650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>call_attempt_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>2</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label>Appointment Rescheduled</picklist_label>
+<picklist_value>Appointment Rescheduled</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+<global_picklist_item_record>
+<id>1cf525f81650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>call_attempt_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>3</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label>Brief Discussion</picklist_label>
+<picklist_value>Brief Discussion</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+<global_picklist_item_record>
+<id>1cf52c381650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>call_attempt_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>4</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label> Callback Again</picklist_label>
+<picklist_value> Callback Again</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+</global_picklist_record>

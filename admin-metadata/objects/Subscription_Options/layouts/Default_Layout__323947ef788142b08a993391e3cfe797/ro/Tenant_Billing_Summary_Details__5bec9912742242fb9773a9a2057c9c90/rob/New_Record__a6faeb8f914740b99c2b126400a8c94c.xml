@@ -1,0 +1,15 @@
+<related_object_button>
+<id>a6faeb8f914740b99c2b126400a8c94c</id>
+<layout_id>323947ef788142b08a993391e3cfe797</layout_id>
+<network_object_related_object_id>5bec9912742242fb9773a9a2057c9c90</network_object_related_object_id>
+<name>New Record</name>
+<list_order>99</list_order>
+<action_url>Service?t=498&amp;id=-1&amp;object_id=133634e0b6ea412b82221a96768e5c08&amp;a=add&amp;prefill_data=1&amp;prefill_specific_fields=base_subscription_option&amp;base_subscription_option={id}</action_url>
+<flag_return_path>1</flag_return_path>
+<created_id></created_id>
+<date_created></date_created>
+<modified_id></modified_id>
+<date_modified></date_modified>
+<affiliate_id></affiliate_id>
+<flag_std_button>1</flag_std_button>
+</related_object_button>

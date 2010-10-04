@@ -1,0 +1,15 @@
+<related_object_button>
+<id>49ad31770ffd482ba51df60b5c87db08</id>
+<layout_id>a0fd0e9707094b9a85e5fdcd00a50cd5</layout_id>
+<network_object_related_object_id>476ef3aa3ca641dc947d6debe09d9770</network_object_related_object_id>
+<name>New Record</name>
+<list_order>99</list_order>
+<action_url>Service?t=498&amp;id=-1&amp;object_id=d89ee575f80c4a18a6105a88f2c83740&amp;a=add&amp;prefill_data=1&amp;prefill_specific_fields=accessory_plan&amp;accessory_plan={id}</action_url>
+<flag_return_path>1</flag_return_path>
+<created_id></created_id>
+<date_created></date_created>
+<modified_id></modified_id>
+<date_modified></date_modified>
+<affiliate_id></affiliate_id>
+<flag_std_button>1</flag_std_button>
+</related_object_button>
