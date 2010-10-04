@@ -1,0 +1,76 @@
+<custom_object_table>
+<id type = "varchar(32)"  nullAttrib = "NO" key = "PRI" default = "" extraAttrib = ""></id>
+<email type = "varchar(100)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></email>
+<password type = "varchar(255)"  nullAttrib = "NO" key = "" default = "" extraAttrib = ""></password>
+<username type = "varchar(100)"  nullAttrib = "NO" key = "MUL" default = "" extraAttrib = ""></username>
+<alias type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></alias>
+<active type = "int(11)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></active>
+<reports_to type = "varchar(32)"  nullAttrib = "YES" key = "" default = "" extraAttrib = ""></reports_to>
+<first_name type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></first_name>
+<last_name type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></last_name>
+<company type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></company>
+<title type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></title>
+<division type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></division>
+<city type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></city>
+<state type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></state>
+<zip type = "varchar(10)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></zip>
+<country type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></country>
+<phone type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></phone>
+<fax type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></fax>
+<mobile type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></mobile>
+<time_zone type = "int(11)"  nullAttrib = "YES" key = "" default = "8" extraAttrib = ""></time_zone>
+<role type = "int(11)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></role>
+<day_start type = "int(11)"  nullAttrib = "YES" key = "" default = "8" extraAttrib = ""></day_start>
+<day_end type = "int(11)"  nullAttrib = "YES" key = "" default = "20" extraAttrib = ""></day_end>
+<employee_number type = "varchar(50)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></employee_number>
+<date_created type = "datetime"  nullAttrib = "NO" key = "" default = "0000-00-00 00:00:00" extraAttrib = ""></date_created>
+<created_id type = "varchar(32)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></created_id>
+<date_modified type = "datetime"  nullAttrib = "NO" key = "" default = "0000-00-00 00:00:00" extraAttrib = ""></date_modified>
+<modified_id type = "varchar(32)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></modified_id>
+<last_login type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></last_login>
+<affiliate_id type = "int(11)"  nullAttrib = "NO" key = "" default = "0" extraAttrib = ""></affiliate_id>
+<notify_info type = "int(11)"  nullAttrib = "YES" key = "" default = "1" extraAttrib = ""></notify_info>
+<color type = "varchar(50)"  nullAttrib = "YES" key = "" default = "Default" extraAttrib = ""></color>
+<tab_order type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></tab_order>
+<password1 type = "varchar(100)"  nullAttrib = "YES" key = "" default = "" extraAttrib = ""></password1>
+<password2 type = "varchar(100)"  nullAttrib = "YES" key = "" default = "" extraAttrib = ""></password2>
+<password3 type = "varchar(100)"  nullAttrib = "YES" key = "" default = "" extraAttrib = ""></password3>
+<password4 type = "varchar(100)"  nullAttrib = "YES" key = "" default = "" extraAttrib = ""></password4>
+<password5 type = "varchar(100)"  nullAttrib = "YES" key = "" default = "" extraAttrib = ""></password5>
+<force_password_change_on_login type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "1" extraAttrib = ""></force_password_change_on_login>
+<date_last_password_change type = "datetime"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></date_last_password_change>
+<signature type = "text"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></signature>
+<appointment_reminder_duration type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></appointment_reminder_duration>
+<appointment_email type = "varchar(255)"  nullAttrib = "YES" key = "" default = "" extraAttrib = ""></appointment_email>
+<task_reminder_duration type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></task_reminder_duration>
+<task_email type = "varchar(255)"  nullAttrib = "YES" key = "" default = "" extraAttrib = ""></task_email>
+<default_search_tab type = "varchar(32)"  nullAttrib = "YES" key = "" default = "CURRENT_TAB" extraAttrib = ""></default_search_tab>
+<stay_in_touch_subject type = "varchar(255)"  nullAttrib = "YES" key = "" default = "Your Contact Info" extraAttrib = ""></stay_in_touch_subject>
+<street type = "varchar(255)"  nullAttrib = "YES" key = "" default = "" extraAttrib = ""></street>
+<stay_in_touch_note type = "varchar(255)"  nullAttrib = "YES" key = "" default = "Dear $contact.first_name
+
+I am updating my address book. Please " extraAttrib = ""></stay_in_touch_note>
+<show_tasks_also type = "char(1)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></show_tasks_also>
+<starting_app_id type = "varchar(32)"  nullAttrib = "YES" key = "" default = "1" extraAttrib = ""></starting_app_id>
+<html_signature type = "text"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></html_signature>
+<licensed type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "1" extraAttrib = ""></licensed>
+<shared_calendar_user type = "varchar(2048)"  nullAttrib = "YES" key = "" default = "" extraAttrib = ""></shared_calendar_user>
+<shared_calendar_type type = "varchar(255)"  nullAttrib = "YES" key = "" default = "" extraAttrib = ""></shared_calendar_type>
+<cal_visibility_control type = "mediumtext"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></cal_visibility_control>
+<language type = "char(2)"  nullAttrib = "YES" key = "" default = "en" extraAttrib = ""></language>
+<security_question type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></security_question>
+<custom_security_question type = "varchar(225)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom_security_question>
+<security_answer type = "varchar(225)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></security_answer>
+<flag_std_user type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></flag_std_user>
+<private_key type = "text"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></private_key>
+<public_key type = "text"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></public_key>
+<invalid_login_attempt type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></invalid_login_attempt>
+<date_format type = "varchar(10)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></date_format>
+<proxy_login_users type = "text"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></proxy_login_users>
+<proxy_login_teams type = "text"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></proxy_login_teams>
+<user_type type = "char(1)"  nullAttrib = "YES" key = "" default = "P" extraAttrib = ""></user_type>
+<federation_id type = "varchar(32)"  nullAttrib = "YES" key = "" default = "" extraAttrib = ""></federation_id>
+<custom_object_index>
+</custom_object_index>
+<custom_object_primary_key columns = " id"></custom_object_primary_key>
+</custom_object_table>

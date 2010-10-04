@@ -1,0 +1,117 @@
+<custom_object_table>
+<id type = "int(11)"  nullAttrib = "NO" key = "PRI" default = "0" extraAttrib = ""></id>
+<account_id type = "int(11)"  nullAttrib = "YES" key = "MUL" default = "0" extraAttrib = ""></account_id>
+<opportunity_id type = "int(11)"  nullAttrib = "YES" key = "MUL" default = "0" extraAttrib = ""></opportunity_id>
+<contact_id type = "int(11)"  nullAttrib = "YES" key = "MUL" default = "0" extraAttrib = ""></contact_id>
+<owner_id type = "varchar(32)"  nullAttrib = "YES" key = "MUL" default = "null" extraAttrib = ""></owner_id>
+<name type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></name>
+<amount type = "double"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></amount>
+<type type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></type>
+<number type = "varchar(100)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></number>
+<start_date type = "date"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></start_date>
+<end_date type = "date"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></end_date>
+<date_created type = "datetime"  nullAttrib = "NO" key = "" default = "0000-00-00 00:00:00" extraAttrib = ""></date_created>
+<created_id type = "varchar(32)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></created_id>
+<date_modified type = "datetime"  nullAttrib = "NO" key = "" default = "0000-00-00 00:00:00" extraAttrib = ""></date_modified>
+<modified_id type = "varchar(32)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></modified_id>
+<notify type = "varchar(10)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></notify>
+<description type = "text"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></description>
+<custom1 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom1>
+<custom2 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom2>
+<custom3 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom3>
+<custom4 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom4>
+<custom5 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom5>
+<agent_id type = "int(11)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></agent_id>
+<customer_signed_by type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></customer_signed_by>
+<customer_signed_title type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></customer_signed_title>
+<customer_signed_date type = "date"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></customer_signed_date>
+<special_terms type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></special_terms>
+<status type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></status>
+<company_signed_by type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></company_signed_by>
+<company_signed_title type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></company_signed_title>
+<company_signed_date type = "date"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></company_signed_date>
+<owner_team_id type = "int(11)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></owner_team_id>
+<renewal_date type = "date"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></renewal_date>
+<custom6 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom6>
+<custom7 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom7>
+<custom8 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom8>
+<custom9 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom9>
+<custom10 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom10>
+<custom11 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom11>
+<custom12 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom12>
+<custom13 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom13>
+<custom14 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom14>
+<custom15 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom15>
+<custom16 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom16>
+<custom17 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom17>
+<custom18 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom18>
+<custom19 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom19>
+<custom20 type = "varchar(255)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></custom20>
+<no_of_licenses type = "int(11)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></no_of_licenses>
+<delegated_admin type = "tinyint(4)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></delegated_admin>
+<is_deleted type = "tinyint(2)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></is_deleted>
+<no_of_marketing_campaign_emails_per_month type = "int(11)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></no_of_marketing_campaign_emails_per_month>
+<space_per_user_mb type = "int(11)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></space_per_user_mb>
+<space_for_documents_mb type = "int(11)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></space_for_documents_mb>
+<billing_plan_type type = "varchar(32)"  nullAttrib = "YES" key = "" default = "null" extraAttrib = ""></billing_plan_type>
+<space_for_objects_mb type = "int(11)"  nullAttrib = "YES" key = "" default = "0" extraAttrib = ""></space_for_objects_mb>
+<custom_object_index>
+<index>
+<id>1000crt0001</id>
+<name>ac_idx</name>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<object_id>CONTRACT</object_id>
+<primary_key>0</primary_key>
+<index_fields>account_id</index_fields>
+<flag_standard>1</flag_standard>
+<affiliate_id></affiliate_id>
+<flags>0</flags>
+</index>
+<index>
+<id>1000crt0002</id>
+<name>ca_idx</name>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<object_id>CONTRACT</object_id>
+<primary_key>0</primary_key>
+<index_fields>contact_id</index_fields>
+<flag_standard>1</flag_standard>
+<affiliate_id></affiliate_id>
+<flags>0</flags>
+</index>
+<index>
+<id>1000crt0003</id>
+<name>ow_idx</name>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<object_id>CONTRACT</object_id>
+<primary_key>0</primary_key>
+<index_fields>owner_id</index_fields>
+<flag_standard>2</flag_standard>
+<affiliate_id></affiliate_id>
+<flags>0</flags>
+</index>
+<index>
+<id>1000crt0004</id>
+<name>op_idx</name>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<object_id>CONTRACT</object_id>
+<primary_key>0</primary_key>
+<index_fields>opportunity_id</index_fields>
+<flag_standard>1</flag_standard>
+<affiliate_id></affiliate_id>
+<flags>0</flags>
+</index>
+</custom_object_index>
+<custom_object_primary_key columns = " id"></custom_object_primary_key>
+</custom_object_table>

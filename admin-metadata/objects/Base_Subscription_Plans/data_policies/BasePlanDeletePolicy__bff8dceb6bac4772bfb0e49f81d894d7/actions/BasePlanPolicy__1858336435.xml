@@ -1,0 +1,40 @@
+<workflow_actions>
+<id>1858336435</id>
+<name>BasePlanPolicy</name>
+<action_order>1</action_order>
+<type>EXECUTE_JAVA_CODE</type>
+<subject></subject>
+<description></description>
+<end_date>0</end_date>
+<flag_owner>0</flag_owner>
+<owner></owner>
+<email_to></email_to>
+<email_additional_to></email_additional_to>
+<email_from></email_from>
+<cc></cc>
+<beanshell_code>String basePlan = (String)requestParams.get(&quot;id&quot;); 
+
+ debug(&quot;base_subscriber_plan equals &quot;+ basePlan);
+ Result result = searchRecords(&quot;Tenants&quot;, &quot;record_id&quot;, &quot;base_subscriber_plan equals &quot;+ basePlan);
+ debug(result.getCode());
+ if(result.getCode() &gt; 0)
+    throwError(&quot;This plan is associated with some of the tenants. You can not delete&quot;);</beanshell_code>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<policy_id>bff8dceb6bac4772bfb0e49f81d894d7</policy_id>
+<object_id>18350dccebbd49eabdf52e051051cb48</object_id>
+<update_column></update_column>
+<update_value></update_value>
+<soap_server_url></soap_server_url>
+<soap_server_port>0</soap_server_port>
+<soap_message></soap_message>
+<soap_action></soap_action>
+<soap_content_type></soap_content_type>
+<is_deleted>0</is_deleted>
+<editor_type>0</editor_type>
+<emailfrom_userid></emailfrom_userid>
+<affiliate_id></affiliate_id>
+<bcc></bcc>
+</workflow_actions>

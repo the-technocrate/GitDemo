@@ -1,0 +1,43 @@
+<workflow_actions>
+<id>1550019879</id>
+<name>packagePlandeletepolicy</name>
+<action_order>1</action_order>
+<type>EXECUTE_JAVA_CODE</type>
+<subject></subject>
+<description></description>
+<end_date>0</end_date>
+<flag_owner>0</flag_owner>
+<owner></owner>
+<email_to></email_to>
+<email_additional_to></email_additional_to>
+<email_from></email_from>
+<cc></cc>
+<beanshell_code>String packagePlan = (String)requestParams.get(&quot;id&quot;); 
+ 
+ debug(&quot;package_plan equals &quot;+ packagePlan);
+ 
+ Result tenantSubscription = searchRecords(&quot;Tenant_Subscription_Plans&quot;, &quot;record_id&quot;, &quot;plan equals &quot;+ packagePlan);
+ 
+ Result packages = searchRecords(&quot;Packages&quot;, &quot;record_id&quot;, &quot;package_subscription_plan  equals &quot;+ packagePlan);
+  
+ if(packages.getCode() &gt; 0 || tenantSubscription.getCode() &gt; 0)
+    throwError(&quot;This plan is associated with some of the packages. You can not delete&quot;);</beanshell_code>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<policy_id>f82ef8e444a144e4b6226ba31661fc10</policy_id>
+<object_id>2387afa701154285a8dec7533a07c830</object_id>
+<update_column></update_column>
+<update_value></update_value>
+<soap_server_url></soap_server_url>
+<soap_server_port>0</soap_server_port>
+<soap_message></soap_message>
+<soap_action></soap_action>
+<soap_content_type></soap_content_type>
+<is_deleted>0</is_deleted>
+<editor_type>0</editor_type>
+<emailfrom_userid></emailfrom_userid>
+<affiliate_id></affiliate_id>
+<bcc></bcc>
+</workflow_actions>

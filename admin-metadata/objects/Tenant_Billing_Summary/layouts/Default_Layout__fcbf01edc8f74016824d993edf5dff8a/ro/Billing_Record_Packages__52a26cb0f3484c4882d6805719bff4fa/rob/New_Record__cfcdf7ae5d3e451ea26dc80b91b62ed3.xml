@@ -1,0 +1,15 @@
+<related_object_button>
+<id>cfcdf7ae5d3e451ea26dc80b91b62ed3</id>
+<layout_id>fcbf01edc8f74016824d993edf5dff8a</layout_id>
+<network_object_related_object_id>52a26cb0f3484c4882d6805719bff4fa</network_object_related_object_id>
+<name>New Record</name>
+<list_order>99</list_order>
+<action_url>Service?t=498&amp;id=-1&amp;object_id=133634e0b6ea412b82221a96768e5c08&amp;a=add&amp;prefill_data=1&amp;prefill_specific_fields=billing_record&amp;billing_record={id}</action_url>
+<flag_return_path>1</flag_return_path>
+<created_id></created_id>
+<date_created></date_created>
+<modified_id></modified_id>
+<date_modified></date_modified>
+<affiliate_id></affiliate_id>
+<flag_std_button>1</flag_std_button>
+</related_object_button>

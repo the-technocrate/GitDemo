@@ -1,0 +1,76 @@
+<global_picklist_record>
+<list_values>ISV,Tenant,MSP,MSP Client</list_values>
+<name>tenant_type</name>
+<affiliate_id></affiliate_id>
+<default_flag>null</default_flag>
+<sort_flag>null</sort_flag>
+<completed_values></completed_values>
+<title>Tenant Type</title>
+<description>Type of Tenant or Account</description>
+<date_modified></date_modified>
+<modified_id></modified_id>
+<flag_standard>3</flag_standard>
+<created_id></created_id>
+<date_created></date_created>
+<flags>0</flags>
+<global_picklist_item_record>
+<id>tenanttype2f102ca6838af427e60c89</id>
+<affiliate_id></affiliate_id>
+<picklist_id>tenant_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>1</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label>Tenant</picklist_label>
+<picklist_value>1</picklist_value>
+<start_date>2009-11-06 18:41:08.0</start_date>
+<end_date>2009-11-06 18:41:08.0</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+<global_picklist_item_record>
+<id>tenanttype3f102ca6838af427e60c89</id>
+<affiliate_id></affiliate_id>
+<picklist_id>tenant_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>2</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label>MSP</picklist_label>
+<picklist_value>2</picklist_value>
+<start_date>2009-11-06 18:41:08.0</start_date>
+<end_date>2009-11-06 18:41:08.0</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+<global_picklist_item_record>
+<id>tenanttype4f102ca6838af427e60c89</id>
+<affiliate_id></affiliate_id>
+<picklist_id>tenant_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>3</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label>MSP Client</picklist_label>
+<picklist_value>3</picklist_value>
+<start_date>2009-11-06 18:41:08.0</start_date>
+<end_date>2009-11-06 18:41:08.0</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+</global_picklist_record>

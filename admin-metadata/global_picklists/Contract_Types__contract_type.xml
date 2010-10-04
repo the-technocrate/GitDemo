@@ -1,0 +1,136 @@
+<global_picklist_record>
+<list_values>Service, Support, Advertisement, Integration, Partnership, Other</list_values>
+<name>contract_type</name>
+<affiliate_id></affiliate_id>
+<default_flag>0</default_flag>
+<sort_flag>0</sort_flag>
+<completed_values></completed_values>
+<title>Contract Types</title>
+<description>Displays the contract types</description>
+<date_modified></date_modified>
+<modified_id></modified_id>
+<flag_standard>3</flag_standard>
+<created_id></created_id>
+<date_created></date_created>
+<flags>0</flags>
+<global_picklist_item_record>
+<id>1cebed8a1650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>contract_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>0</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label>Service</picklist_label>
+<picklist_value>Service</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+<global_picklist_item_record>
+<id>1cedbade1650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>contract_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>1</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label> Support</picklist_label>
+<picklist_value> Support</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+<global_picklist_item_record>
+<id>1cedc2901650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>contract_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>2</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label> Advertisement</picklist_label>
+<picklist_value> Advertisement</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+<global_picklist_item_record>
+<id>1cedc9521650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>contract_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>3</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label> Integration</picklist_label>
+<picklist_value> Integration</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+<global_picklist_item_record>
+<id>1cedd01e1650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>contract_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>4</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label> Partnership</picklist_label>
+<picklist_value> Partnership</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+<global_picklist_item_record>
+<id>1cede5e01650102db40712313a00ce07</id>
+<affiliate_id></affiliate_id>
+<picklist_id>contract_type</picklist_id>
+<image_id></image_id>
+<text_color>#000000</text_color>
+<text_bg_color>#FFFFFF</text_bg_color>
+<show_only_image>0</show_only_image>
+<picklist_order>5</picklist_order>
+<flag_default>0</flag_default>
+<picklist_label> Other</picklist_label>
+<picklist_value> Other</picklist_value>
+<start_date>null</start_date>
+<end_date>null</end_date>
+<date_created></date_created>
+<date_modified></date_modified>
+<created_id></created_id>
+<modified_id></modified_id>
+<flag_is_optgroup>null</flag_is_optgroup>
+</global_picklist_item_record>
+</global_picklist_record>
