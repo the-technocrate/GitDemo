@@ -1,6 +1,0 @@
-some text
-
-
-From testMachine
-
-My personal changes
